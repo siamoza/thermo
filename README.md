@@ -23,8 +23,8 @@
 <pre>
 Обновление, установка, настройка
 
-# sudo usermod -a  -G tty www-data
-# sudo usermod -a  -G dialout www-data
+# sudo usermod -a -G tty www-data
+# sudo usermod -a -G dialout www-data
 # apt-get update
 # apt-get upgrade
 # apt-get install digitemp
